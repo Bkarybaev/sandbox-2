@@ -3,10 +3,14 @@ public class Cat {
     String color;
     int age;
 
-    public Cat(String name,int age){};
+    public Cat(String name,int age){
+        this.age = age;
+        this.name = name;
+    };
 
-    public Cat(String color){
+    public Cat(String color,String name){
         this.color = color;
+        this.name = name;
     }
 
     public Cat(int age){

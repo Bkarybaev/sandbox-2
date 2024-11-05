@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        Cat cat = new Cat("red");
+        Cat cat = new Cat("rock","red");
         Cat cat1 = new Cat(23);
-        Cat cat12 = new Cat("black");
+        Cat cat12 = new Cat("good","black");
 
         Cat[] array = new Cat[3];
         array[0] = cat;
