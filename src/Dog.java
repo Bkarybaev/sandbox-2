@@ -20,6 +20,4 @@ public class Dog {
                 age   : %d
                 """,name,color,age);
     }
-
-
 }

@@ -19,7 +19,4 @@ public class Cat {
                 age   : %d
                 """,name,color,age);
     }
-
-
-
 }

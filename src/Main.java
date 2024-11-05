@@ -1,7 +1,3 @@
-import java.util.Arrays;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
@@ -22,7 +18,5 @@ public class Main {
 
         Dog dog1 = new Dog("alabay","yellow", (byte) 5);
         System.out.println(dog1.geInfo());
-
-
     }
 }
