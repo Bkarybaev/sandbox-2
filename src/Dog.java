@@ -1,25 +1,25 @@
-public class Cat {
+public class Dog {
     String name;
     String color;
-    int age;
+    byte age;
 
-    public Cat(String name,String color,int age){
+    public Dog(){
+
+    }
+    public Dog(String name,String color,byte age){
         this.age = age;
         this.name = name;
         this.color = color;
     }
-    public Cat(){
 
-    }
     public String geInfo(){
-       return String.format("""
-                Cat ::: info
+        return String.format("""
+                Dog ::: info
                 name  : %s
                 color : %s
                 age   : %d
                 """,name,color,age);
     }
-
 
 
 }

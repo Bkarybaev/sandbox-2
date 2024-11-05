@@ -5,17 +5,24 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        Cat cat = new Cat("rock","red");
-        Cat cat1 = new Cat(23);
-        Cat cat12 = new Cat("good","black");
+        Cat cat = new Cat();
+        cat.name = "rew";
+        cat.color = "red";
+        cat.age = 3;
+        System.out.println(cat.geInfo());
 
-        Cat[] array = new Cat[3];
-        array[0] = cat;
-        array[1] = cat1;
-        array[2] = cat12;
+        Cat cat1 = new Cat("rut","blue",4);
+        System.out.println(cat1.geInfo());
 
-        for (Cat cat2 : array) {
-            System.out.println(cat2.name+"\n"+ cat2.color+"\n"+cat2.age);
-        }
+        Dog dog = new Dog();
+        dog.name = "white breast";
+        dog.color = "white";
+        dog.age = 13;
+        System.out.println(dog.geInfo());
+
+        Dog dog1 = new Dog("alabay","yellow", (byte) 5);
+        System.out.println(dog1.geInfo());
+
+
     }
 }
